@@ -1,0 +1,14 @@
+# Local environments
+.venv/
+env/
+venv/
+ENV/
+
+# Security & Sensitive Data (NEVER commit credentials)
+.env
+*.env
+*.pem
+*.key
+*.token
+secrets.json
+config.local.json
